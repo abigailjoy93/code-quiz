@@ -1,0 +1,61 @@
+:root {
+  --main: linen;
+  --font: #432109;
+  --accentA: palevioletred;
+  --accentB: sienna;
+}
+
+body {
+  background-color: var(--main);
+  margin: 5px;
+}
+
+.custom-navbar {
+  background-color: var(--accentA);
+  padding: 3px;
+  margin: 3px;
+}
+
+.custom-navbar a {
+  font-family: "Work Sans", sans-serif;
+  color: var(--font);
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.custom-navbar a:hover {
+  color: var(--main);
+}
+
+.custom-border {
+  border: var(--accentB);
+  border-style: double;
+  border-width: 4px;
+}
+
+h1 {
+  color: var(--font);
+  font-family: "Monoton", sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+}
+
+h2 {
+  color: var(--font);
+  font-family: "Work Sans";
+  margin: 20px;
+}
+
+button {
+  background-color: var(--accentA);+
+  border: var(--accentB);
+  height: 60px;
+  width: 175px;
+  margin: 15px;
+}
+
+button div {
+    font-family:'Work Sans';
+    font-size: 35px;
+    color: var(--font);
+}
