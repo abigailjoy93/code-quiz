@@ -6,6 +6,7 @@ const questionEl = document.getElementById("question");
 const answerButtonsEl = document.getElementById("answer-btn");
 
 let randomizeQuestions, currentQuestionIndex;
+let score = 0;
 
 startButton.addEventListener("click", startGame);
 submitButton.addEventListener("click", () => {
